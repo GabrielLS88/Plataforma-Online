@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip Apostas</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <article class="corpo">
+        <section class="caixa-player">
+            <div class="tipoDinheiro">
+                <div class="moeda"><h1>BR</h1></div>
+                <div class="quantidade"><h1>R$</h1><h1 id="quantidadeDinheiro">150.00</h1></div>
+                <div class="carteira"><h1>Carteira</h1></div>
+            </div>
+        </section>
+        <section class="content-game">
+            <section class="content-user">
+                <div class="btn-alterarAutomatico">
+                    <button id="btn-alterar-manual" onclick="mudarCor">Manual</button>
+                    <button id="btn-alterar-automatico">Automatico</button>
+                </div>
+                <div class="parte1">
+                    <div class="input-escrita">
+                        <h1 id="valor-escrita">Valor Da Aposta</h1>
+                        <h1>R$0.00</h1>
+                    </div>
+                    <div class="input-valor">
+                        <input id="inputValor" type="text" pattern="[0-9]*" inputmode="numeric" placeholder="0,00">
+                        <button id="btn-multiplicar-valor">1/2</button>
+                        <button id="btn-multiplicar-valor">X2</button>
+                    </div>
+                </div>
+                <div class="parte2">
+                    <div class="input-escrita">
+                        <h1>Lucro Da Vitoria</h1>
+                        <h1 id="resultLucroVitoria"></h1>
+                    </div>
+                    <div class="input-valor-Final">
+                       <h1 id="valorFinal">0.00</h1>
+                    </div>
+                </div>
+                <div class="btnApostar">
+                    <button id="btn-Apostar">Aposta</button>
+                </div>
+            </section>
+            <section class="content-roleta">
+                <div class="resultados">    
+                </div>
+                <div class="numeroresult">
+                    <h1 id="result">1.00X</h1>
+                </div>
+                <div class="multiplicadorChance"></div>
+            </section>
+        </section>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>

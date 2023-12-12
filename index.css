@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.corpo{
+    width: 100%;
+    height: auto;
+    background-color: #1a2c38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-game{
+    width: 85%;
+    height: 500px;
+    margin: 30px 80px 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-user{
+    width: 30%;
+    height: 100%;
+    background-color: #213743;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: first;
+    align-items: center;
+    flex-direction: column;
+}
+.content-roleta{
+    width: 100%;
+    height: 100%;
+    background-color: #0f212e;
+    border-radius: 0px 10px 10px 0px;
+}
+.parte1{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgba(233, 230, 230, 0.877);
+    font-size: 11px;
+    font-weight: 600;
+}
+.btn-alterarAutomatico{
+    width: 90%;
+    height: auto;
+    display: flex;
+    background-color: #0f212e;
+    border-radius: 20px;
+    margin: 10px;
+}
+#btn-alterar-automatico{
+    width: 50%;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #0f212e;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 12px;
+}
+#btn-alterar-manual{
+    width: 50%;
+    height: 35px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #0f212e;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 12px;
+}
+#btn-alterar-automatico:hover{
+    background-color: #213743;
+}
+#btn-alterar-manual:hover{
+    background-color: #213743;
+}
+.input-escrita{
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+    color: #b1bad3;
+}
+.input-valor{
+    width: 95%;
+    height: auto;
+    display: flex;
+    background-color:#2f4553;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+#inputValor{
+    width: 100%;
+    height: 30px;
+    background-color: #0f212e ;
+    border: 0;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    font-size: 12px;
+
+}
+input::placeholder{
+    color: white;
+}
+#btn-multiplicar-valor{
+    width: 20%;
+    height: 100%;
+    background-color: #2f4553;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+#btn-multiplicar-valor:hover{
+    background-color: #0f212e;
+}
+.parte2{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: rgba(233, 230, 230, 0.877);
+    font-size: 11px;
+    font-weight: 600;
+}
+#valorFinal{
+    width: 100%;
+    height: 30px;
+    background-color: #2f4553;
+    border: 0;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    font-size: 13px;
+}
+.input-valor-Final{
+    width: 95%;
+    height: auto;
+    display: flex;
+    background-color:#2f4553;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.btnApostar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-Apostar{
+    width: 90%;
+    height: 50px;
+    border: 0;
+    background-color:#00e701 ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.resultados{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+.numeroresult{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    font-variant-numeric: normal;
+    font-size: 100px;
+    color:#00e701 ;
+}
+.numbersResult{
+    width: 70px;
+    height: 35px;
+    background-color:#00e701 ;
+    padding: 10px;
+    margin: 5px 0px 0px 7px;
+    border: 0;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.multiplicadorChance{
+    width: 90%;
+}
+
+.redBackground {
+    background-color: red;
+}
+
+.caixa-player{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tipoDinheiro{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    color: white;
+}
+.moeda{
+    width: 20%;
+    height: 100%;
+    background-color: #0f212e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantidade{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f212e;
+}
+.carteira{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1475e1 ;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .redBackground {
+        background-color: red;
+    }
+    .numbersResult{
+        width: 60px;
+        height: 30px;
+        background-color:#00e701 ;
+        padding: 10px;
+        margin: 5px 0px 0px 7px;
+        border: 0;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:black;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    .btn-alterarAutomatico{
+        width: 90%;
+        height: auto;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        background-color: #0f212e;
+        border-radius: 20px;
+        margin: 10px;
+        padding: 5px;
+    }
+    #btn-alterar-automatico{
+        width: 100%;
+        height: 35px;
+        margin: 5px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #btn-alterar-manual{
+        width: 100%;
+        height: 35px;
+        margin: 5px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;;
+    }
+    .input-escrita{
+        width: 90%;
+        height: auto;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2px;
+        color: #b1bad3;
+    }
+    #valor-escrita{
+        margin-bottom: 10px;
+    }
+    #btn-multiplicar-valor{
+        display: none;
+    }
+    #result{
+        font-size: 60px;
+    }
+    .corpo{
+        width: 100%;
+        height: auto;
+        background-color: #1a2c38;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    .caixa-player{
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+}
